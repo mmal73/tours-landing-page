@@ -1,0 +1,23 @@
+{
+  "name": "tours-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for tours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmal73/tours-landing-page.git"
+  },
+  "author": "Luis Antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmal73/tours-landing-page/issues"
+  },
+  "homepage": "https://github.com/mmal73/tours-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
